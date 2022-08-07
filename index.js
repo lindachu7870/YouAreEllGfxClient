@@ -18,7 +18,7 @@ window.addEventListener("load", function () {
     function errorCallback(response) {
         console.log(response);
     }
-}
+
 
 function populateMessages(messages) {
     messages.forEach(message => {
@@ -46,7 +46,7 @@ function createFormListener() {
 
         function errorCallback(response) {
             console.log(response);
-});
+};
 
 function addMessageToThread(message) {
     const messageListItem = document.createElement("LI");
@@ -62,3 +62,6 @@ function addMessageToThread(message) {
     document.getElementById("message-list").appendChild(messageListItem);
 }
 
+function createFormListener() {
+}
+    }
